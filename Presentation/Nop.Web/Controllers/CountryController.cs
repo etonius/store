@@ -10,8 +10,8 @@ using Nop.Web.Infrastructure.Cache;
 namespace Nop.Web.Controllers
 {
     public partial class CountryController : BasePublicController
-	{
-		#region Fields
+    {
+        #region Fields
 
         private readonly ICountryService _countryService;
         private readonly IStateProvinceService _stateProvinceService;
@@ -19,22 +19,22 @@ namespace Nop.Web.Controllers
         private readonly IWorkContext _workContext;
         private readonly ICacheManager _cacheManager;
 
-	    #endregion
+        #endregion
 
-		#region Constructors
+        #region Constructors
 
-        public CountryController(ICountryService countryService, 
-            IStateProvinceService stateProvinceService, 
-            ILocalizationService localizationService, 
+        public CountryController(ICountryService countryService,
+            IStateProvinceService stateProvinceService,
+            ILocalizationService localizationService,
             IWorkContext workContext,
             ICacheManager cacheManager)
-		{
+        {
             this._countryService = countryService;
             this._stateProvinceService = stateProvinceService;
             this._localizationService = localizationService;
             this._workContext = workContext;
             this._cacheManager = cacheManager;
-		}
+        }
 
         #endregion
 
@@ -57,9 +57,9 @@ namespace Nop.Web.Controllers
                               .ToList();
 
 
-                if (country == null)  
+                if (country == null)
                 {  
-                    //country is not selected ("choose country" item)
+                            //country is not selected ("choose country" item)
                     if (addSelectStateItem)
                     {
                         result.Insert(0, new { id = 0, name = _localizationService.GetResource("Address.SelectState") });
@@ -89,7 +89,7 @@ namespace Nop.Web.Controllers
 
                 return result;
             });
-            
+
             return Json(cacheModel, JsonRequestBehavior.AllowGet);
         }
 
