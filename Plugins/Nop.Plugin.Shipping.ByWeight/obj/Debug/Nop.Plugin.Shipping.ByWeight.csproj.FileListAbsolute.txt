@@ -1,0 +1,12 @@
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\Configure.cshtml
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\EditPopup.cshtml
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\_CreateOrUpdate.cshtml
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\AddPopup.cshtml
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\web.config
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Description.txt
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\logo.jpg
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.dll.config
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.dll
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.pdb
+D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.dll
+D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.pdb

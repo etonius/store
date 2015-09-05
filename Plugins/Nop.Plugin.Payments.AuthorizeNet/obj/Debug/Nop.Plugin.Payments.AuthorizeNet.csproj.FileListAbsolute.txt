@@ -1,0 +1,10 @@
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\Views\PaymentAuthorizeNet\Configure.cshtml
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\Views\PaymentAuthorizeNet\PaymentInfo.cshtml
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\web.config
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\Description.txt
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\logo.jpg
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\Nop.Plugin.Payments.AuthorizeNet.dll.config
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\Nop.Plugin.Payments.AuthorizeNet.dll
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Payments.AuthorizeNet\Nop.Plugin.Payments.AuthorizeNet.pdb
+D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Payments.AuthorizeNet\obj\Debug\Nop.Plugin.Payments.AuthorizeNet.dll
+D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Payments.AuthorizeNet\obj\Debug\Nop.Plugin.Payments.AuthorizeNet.pdb

@@ -1,0 +1,12 @@
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Misc.WebServices\Description.txt
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Misc.WebServices\Views\MiscWebServices\Configure.cshtml
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Misc.WebServices\web.config
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Misc.WebServices\logo.jpg
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Misc.WebServices\Remote\NopService.svc
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Misc.WebServices\Remote\web.config
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Misc.WebServices\Nop.Plugin.Misc.WebServices.dll.config
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Misc.WebServices\Nop.Plugin.Misc.WebServices.dll
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Misc.WebServices\Nop.Plugin.Misc.WebServices.pdb
+D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Misc.WebServices\obj\Debug\Nop.Plugin.Misc.WebServices.csprojResolveAssemblyReference.cache
+D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Misc.WebServices\obj\Debug\Nop.Plugin.Misc.WebServices.dll
+D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Misc.WebServices\obj\Debug\Nop.Plugin.Misc.WebServices.pdb
