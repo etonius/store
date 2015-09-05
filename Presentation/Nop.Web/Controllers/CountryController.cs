@@ -57,8 +57,8 @@ namespace Nop.Web.Controllers
                               .ToList();
 
 
-                if (country == null)
-                {
+                if (country == null)  
+                {  
                     //country is not selected ("choose country" item)
                     if (addSelectStateItem)
                     {
