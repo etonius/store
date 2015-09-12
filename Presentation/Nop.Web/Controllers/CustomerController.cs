@@ -339,6 +339,8 @@ namespace Nop.Web.Controllers
                 {
                     //states
                     var states = _stateProvinceService.GetStateProvincesByCountryId(model.CountryId).ToList();
+                    //model.AvailableStates.Insert(0, new SelectListItem() { Text = "Select State or Province", Value = "0", Selected = false });
+                    //var states = _stateProvinceService.GetStateProvincesByCountryId(model.CountryId).ToList();
                     if (states.Count > 0)
                     {
                         model.AvailableStates.Add(new SelectListItem { Text = _localizationService.GetResource("Address.SelectState"), Value = "0" });

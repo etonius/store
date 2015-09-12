@@ -32,6 +32,7 @@ namespace Nop.Web.Models.Catalog
         public bool DefaultPictureZoomEnabled { get; set; }
         public PictureModel DefaultPictureModel { get; set; }
         public IList<PictureModel> PictureModels { get; set; }
+        public bool OnePageCheckoutEnabled { get; set; }
 
         public string Name { get; set; }
         public string ShortDescription { get; set; }

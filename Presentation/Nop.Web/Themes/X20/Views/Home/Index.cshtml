@@ -1,0 +1,8 @@
+﻿@{
+    Layout = "~/Views/Shared/_ColumnsOneFull.cshtml";
+}
+<div class="home-page">
+@Html.Widget("home_page_top")
+@Html.Action("TopicBlock", "Topic", new { systemName = "HomePageText" })
+@Html.Widget("home_page_bottom")
+</div>

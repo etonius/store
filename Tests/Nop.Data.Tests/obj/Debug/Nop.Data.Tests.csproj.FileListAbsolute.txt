@@ -10,9 +10,10 @@ D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
-D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
@@ -25,8 +26,8 @@ D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlSer
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
-D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
@@ -35,4 +36,3 @@ D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.De
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojResolveAssemblyReference.cache
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
 D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb
-D:\nopCommerce_3.50_Source\Tests\Nop.Data.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll

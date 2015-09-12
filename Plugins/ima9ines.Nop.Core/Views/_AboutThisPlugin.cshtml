@@ -1,0 +1,24 @@
+﻿@using ima9ines.Nop.Core.Models;
+@model AboutThisPlugin
+@{
+    string homePageURL = Model.HomePageURL;
+    string suggestAFeatureURL = Model.SuggestAFeatureURL;
+    string helpAndFaqURL = Model.HelpAndFaqURL;
+    string reportABugURL = Model.ReportABugURL;
+}
+<section class="ima9ines-about-this-plugin">
+    <ul>
+        <li>
+            <a href="@homePageURL" target="_blank">Plugin Homepage</a>
+        </li>
+        <li>
+            <a href="@suggestAFeatureURL" target="_blank">Suggest a Feature</a>
+        </li>
+        <li>
+            <a href="@helpAndFaqURL" target="_blank">Help / FAQ</a>
+        </li>
+        <li>
+            <a href="@reportABugURL" target="_blank">Report a Bug</a>
+        </li>
+    </ul>
+</section>

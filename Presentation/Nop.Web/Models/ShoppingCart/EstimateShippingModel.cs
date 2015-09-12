@@ -29,7 +29,7 @@ namespace Nop.Web.Models.ShoppingCart
         [NopResourceDisplayName("ShoppingCart.EstimateShipping.ZipPostalCode")]
         public string ZipPostalCode { get; set; }
 
-        public IList<SelectListItem> AvailableCountries { get; set; }
+        public IList<SelectListItem> AvailableCountries { get; set;}
         public IList<SelectListItem> AvailableStates { get; set; }
 
 		#region Nested Classes

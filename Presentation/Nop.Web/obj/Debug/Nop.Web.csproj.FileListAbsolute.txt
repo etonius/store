@@ -11,6 +11,7 @@ D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\FluentValidation.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\MaxMind.Db.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\Microsoft.Web.Infrastructure.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\MiniProfiler.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\Nop.Core.dll
@@ -33,10 +34,10 @@ D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\System.Web.WebPages.Deployme
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\System.Web.WebPages.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\WebGrease.dll
-D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\itextsharp.dll
-D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\EPPlus.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\ImageResizer.dll
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\itextsharp.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\PerlRegex.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\Nop.Core.pdb
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\Nop.Data.pdb
@@ -70,9 +71,9 @@ D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\System.Web.Razor.xml
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\System.Web.WebPages.xml
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
-D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\itextsharp.xml
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\EPPlus.xml
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\ImageResizer.xml
+D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\itextsharp.xml
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
@@ -90,4 +91,3 @@ D:\nopCommerce_3.50_Source\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.con
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb
-D:\nopCommerce_3.50_Source\Presentation\Nop.Web\bin\Microsoft.Web.Infrastructure.dll

@@ -27,5 +27,6 @@ D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
 D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
 D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb

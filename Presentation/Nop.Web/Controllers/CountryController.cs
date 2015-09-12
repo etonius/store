@@ -74,7 +74,7 @@ namespace Nop.Web.Controllers
                     //some country is selected
                     if (result.Count == 0)
                     {
-                        //country does not have states
+                       // country does not have states
                         result.Insert(0, new { id = 0, name = _localizationService.GetResource("Address.OtherNonUS") });
                     }
                     else
@@ -86,6 +86,7 @@ namespace Nop.Web.Controllers
                         }
                     }
                 }
+            
 
                 return result;
             });
