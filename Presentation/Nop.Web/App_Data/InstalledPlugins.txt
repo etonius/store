@@ -26,3 +26,8 @@ Tax.CountryStateZip
 Widgets.GoogleAnalytics
 Widgets.NivoSlider
 Payments.CashOnDelivery
+ima9ines.Nop.Core
+ima9ines.Misc.ShoppingcartRemoveButton
+ima9ines.Widgets.ProductAffiliateLink
+Mobile.SMS.Clickatell
+Widgets.GoogleAdSense

@@ -1,0 +1,8 @@
+Group: Widgets
+FriendlyName: Google AdSense
+SystemName: Widgets.GoogleAdSense
+Version: 1.02
+SupportedVersions: 3.40,3.50
+Author: Cooper Chen
+DisplayOrder: 1
+FileName: Nop.Plugin.Widgets.GoogleAdSense.dll

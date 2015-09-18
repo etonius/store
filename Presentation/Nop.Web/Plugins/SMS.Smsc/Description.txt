@@ -1,0 +1,8 @@
+﻿Group: SMS providers
+FriendlyName: Smsc SMS Provider
+SystemName: Mobile.SMS.Smsc
+Version: 1.06
+SupportedVersions: 3.20
+Author: Adwaer
+DisplayOrder: 1
+FileName: Nop.Plugin.SMS.Smsc.dll

@@ -5,6 +5,5 @@ D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll.config
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
 D:\nopCommerce_3.50_Source\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
-D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.csprojResolveAssemblyReference.cache
 D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.dll
 D:\nopCommerce_3.50_Source\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.pdb

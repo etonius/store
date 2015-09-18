@@ -1,0 +1,10 @@
+﻿@model Nop.Plugin.Widgets.GoogleAdSense.Models.PublicInfoModel
+@{
+    Layout = "";
+    Html.AddCssFileParts("~/Plugins/Widgets.GoogleAdSense/Content/googleAdSense/default.css");
+}
+@using Nop.Web.Framework.UI
+
+<div id="google-adsense" class="googleadsense">
+    @Html.Raw(Model.JavaScript)
+</div>

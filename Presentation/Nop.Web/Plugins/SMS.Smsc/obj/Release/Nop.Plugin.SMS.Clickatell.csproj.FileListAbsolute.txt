@@ -1,0 +1,4 @@
+D:\work\NopCommerce\Sources\src\Presentation\Nop.Web\Plugins\SMS.Clickatell\Description.txt
+D:\work\NopCommerce\Sources\src\Presentation\Nop.Web\Plugins\SMS.Clickatell\Nop.Plugin.SMS.Clickatell.dll
+D:\work\NopCommerce\Sources\src\Plugins\Nop.Plugin.SMS.Clickatell\obj\Release\Nop.Plugin.SMS.Clickatell.dll
+D:\work\NopCommerce\Sources\src\Plugins\Nop.Plugin.SMS.Clickatell\obj\Release\Nop.Plugin.SMS.Clickatell.csprojResolveAssemblyReference.cache

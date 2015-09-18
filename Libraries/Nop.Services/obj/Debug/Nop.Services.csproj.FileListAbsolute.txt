@@ -23,7 +23,6 @@ D:\nopCommerce_3.50_Source\Libraries\Nop.Services\bin\Debug\System.Web.WebPages.
 D:\nopCommerce_3.50_Source\Libraries\Nop.Services\bin\Debug\UserAgentStringLibrary.dll
 D:\nopCommerce_3.50_Source\Libraries\Nop.Services\bin\Debug\Autofac.Integration.Mvc.dll
 D:\nopCommerce_3.50_Source\Libraries\Nop.Services\bin\Debug\EntityFramework.dll
-D:\nopCommerce_3.50_Source\Libraries\Nop.Services\bin\Debug\System.Data.SqlServerCe.dll
 D:\nopCommerce_3.50_Source\Libraries\Nop.Services\bin\Debug\Nop.Core.pdb
 D:\nopCommerce_3.50_Source\Libraries\Nop.Services\bin\Debug\Nop.Data.pdb
 D:\nopCommerce_3.50_Source\Libraries\Nop.Services\bin\Debug\Autofac.xml

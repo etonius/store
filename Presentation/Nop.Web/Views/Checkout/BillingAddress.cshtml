@@ -1,4 +1,4 @@
-﻿@model CheckoutBillingAddressModel
+@model CheckoutBillingAddressModel
 @using Nop.Web.Models.Checkout;
 @{
     Layout = "~/Views/Shared/_ColumnsOne.cshtml";
@@ -6,8 +6,9 @@
     //title
     Html.AddTitleParts(T("PageTitle.Checkout").Text);
 }
+
 <div class="page checkout-page">
-    @Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Address })
+   @* @Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Address })
     <div class="page-title">
         <h1>@T("Checkout.BillingAddress")</h1>
     </div>
@@ -144,3 +145,4 @@
         </div>
     </div>
 </div>
+

@@ -1,0 +1,8 @@
+Group: ima9ines
+FriendlyName: ima9ines NopCommerce CORE Library
+SystemName: ima9ines.Nop.Core
+Version: 1.00
+SupportedVersions: 3.50
+Author: ima9ines, ima9ines.com
+DisplayOrder: 1
+FileName: ima9ines.Nop.Core.dll

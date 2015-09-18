@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "";
+}
+@model Nop.Plugin.Widgets.GoogleAdSense.Models.ConfigurationModel
+@using Nop.Web.Framework;
+@using (Html.BeginForm())
+{
+    <table class="adminContent">
+        <tr>
+            <td class="adminTitle" colspan="2">Google AdSense is a free website stats tool from Google. </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
+                @Html.NopLabelFor(model => model.ZoneId):
+            </td>
+            <td class="adminData">
+                @Html.DropDownListFor(model => model.ZoneId, Model.AvailableZones)
+                @Html.ValidationMessageFor(model => model.ZoneId)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
+                @Html.NopLabelFor(model => model.JavaScript):
+            </td>
+            <td class="adminData">
+                @Html.TextAreaFor(model => model.JavaScript, new { style = "Width: 300px; Height: 100px;" })
+                @Html.ValidationMessageFor(model => model.JavaScript)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" width="100%">
+                <input type="submit" name="save" class="t-button" value="@T("Admin.Common.Save")" />
+            </td>
+        </tr>
+    </table>
+}

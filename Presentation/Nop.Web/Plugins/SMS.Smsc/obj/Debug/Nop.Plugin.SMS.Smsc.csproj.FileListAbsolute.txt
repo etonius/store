@@ -1,0 +1,7 @@
+D:\Projects\GoodsStore\GoodsStore\branches\dev\Customizations\JointShopping\Presentation\Nop.Web\Plugins\SMS.Smsc\Description.txt
+D:\Projects\GoodsStore\GoodsStore\branches\dev\Customizations\JointShopping\Presentation\Nop.Web\Plugins\SMS.Smsc\logo.jpg
+D:\Projects\GoodsStore\GoodsStore\branches\dev\Customizations\JointShopping\Presentation\Nop.Web\Plugins\SMS.Smsc\Nop.Plugin.SMS.Smsc.dll
+D:\Projects\GoodsStore\GoodsStore\branches\dev\Customizations\JointShopping\Presentation\Nop.Web\Plugins\SMS.Smsc\Nop.Plugin.SMS.Smsc.pdb
+D:\Projects\GoodsStore\GoodsStore\branches\dev\Customizations\JointShopping\Plugins\Nop.Plugin.SMS.Smsc\obj\Debug\Nop.Plugin.SMS.Smsc.csprojResolveAssemblyReference.cache
+D:\Projects\GoodsStore\GoodsStore\branches\dev\Customizations\JointShopping\Plugins\Nop.Plugin.SMS.Smsc\obj\Debug\Nop.Plugin.SMS.Smsc.dll
+D:\Projects\GoodsStore\GoodsStore\branches\dev\Customizations\JointShopping\Plugins\Nop.Plugin.SMS.Smsc\obj\Debug\Nop.Plugin.SMS.Smsc.pdb

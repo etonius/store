@@ -1,4 +1,4 @@
-﻿@model ShoppingCartModel
+@model ShoppingCartModel
 @using Nop.Core
 @using Nop.Core.Infrastructure
 @using Nop.Web.Models.ShoppingCart;
@@ -225,7 +225,7 @@
                 @Html.Action("OrderTotals", "ShoppingCart", new { isEditable = Model.IsEditable })
                 @if (Model.IsEditable)
                 {
-                    if (Model.TermsOfServiceOnShoppingCartPage)
+                    @*if (Model.TermsOfServiceOnShoppingCartPage)
                     {
                         <div id="terms-of-service-warning-box" title="@T("Checkout.TermsOfService")" style="display:none;">
                             <p>@T("Checkout.TermsOfService.PleaseAccept")</p>
@@ -235,12 +235,12 @@
                             @T("Checkout.TermsOfService.IAccept")
                             <span class="read" onclick="javascript:OpenWindow('@Url.RouteUrl("TopicPopup", new { SystemName = "conditionsofuse" })', 450, 500, true)">@T("Checkout.TermsOfService.Read")</span>
                         </div>
-                    }
+                    }*@
                     <div class="checkout-buttons">
                         @if (String.IsNullOrEmpty(Model.MinOrderSubtotalWarning))
                         {
                             <script type="text/javascript">
-                                $(document).ready(function () {
+                           /*     $(document).ready(function () {
                                     $('#checkout').click(function () {
                                         //terms of service
                                         var termOfServiceOk = true;
@@ -255,7 +255,7 @@
                                         }
                                         return termOfServiceOk;
                                     });
-                                });
+                                });*/
                             </script>
                             <button type="submit" id="checkout" name="checkout" value="checkout" class="button-1 checkout-button">
                                 @T("Checkout.Button")

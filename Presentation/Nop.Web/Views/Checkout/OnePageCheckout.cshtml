@@ -1,4 +1,4 @@
-﻿@model OnePageCheckoutModel
+@model OnePageCheckoutModel
 @using Nop.Web.Models.Checkout;
 @using Nop.Core.Infrastructure;
 @{
@@ -96,7 +96,8 @@
                         </div>
                     </div>
                 </li>
-                <li id="opc-shipping_method" class="tab-section">
+            }
+                <li id="opc-shipping_method" class="tab-section" style="display:none;">
                     <div class="step-title">
                         <span class="number">@shippingMethodStepNumber</span>
                         <h2>@T("Checkout.ShippingMethod")</h2>
@@ -118,7 +119,7 @@
                         </form>
                     </div>
                 </li>
-            }
+            
             <li id="opc-payment_method" class="tab-section">
                 <div class="step-title">
                     <span class="number">@paymentMethodStepNumber</span>
@@ -141,7 +142,7 @@
                     </div>
                 </div>
             </li>
-            <li id="opc-payment_info" class="tab-section">
+            <li id="opc-payment_info" class="tab-section" >
                 <div class="step-title">
                     <span class="number">@paymentInfoStepNumber</span>
                     <h2>@T("Checkout.PaymentInfo")</h2>

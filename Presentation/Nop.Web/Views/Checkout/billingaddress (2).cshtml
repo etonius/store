@@ -1,0 +1,247 @@
+@model CheckoutBillingAddressModel
+@using Nop.Web.Models.Checkout;
+@{
+    Layout = "~/Views/Shared/_ColumnsOne.cshtml";
+
+    //title
+    Html.AddTitleParts(T("PageTitle.Checkout").Text);
+}
+
+<div class="page checkout-page">
+   @* @Html.Action("CheckoutProgress", "Checkout", new { step = CheckoutProgressStep.Address })*@
+<!--
+    <div class="page-title">
+        <h1>@T("Checkout.BillingAddress")</h1>
+    </div>
+-->
+    <div class="page-body checkout-data">
+        @*@using (Html.BeginRouteForm("CheckoutBillingAddress", FormMethod.Post))
+        {
+            @Html.Widget("checkout_billing_address_top")
+            if (Model.ExistingAddresses.Count > 0)
+            {*@
+<!--
+                <div class="section select-billing-address">
+                    <div class="title">
+                        <strong>@T("Checkout.SelectBillingAddress")</strong>
+                    </div>
+                    <div class="address-grid">
+-->
+                       @* @foreach (var item in Model.ExistingAddresses)
+                        {*@
+<!--
+                            <div class="address-item">
+                                <div class="select-button">
+                                    <input type="button" value="@T("Checkout.BillToThisAddress")" class="button-1 select-billing-address-button" onclick="setLocation('@Url.RouteUrl("CheckoutSelectBillingAddress", new {addressId = item.Id})') " />
+                                </div>
+                                <ul class="address-box">
+                                    <li class="name">
+                                        <strong>@item.FirstName @item.LastName</strong>
+                                    </li>
+                                    <li class="email">@T("Address.Fields.Email"): @item.Email</li>
+-->
+                                    @if (item.PhoneEnabled)
+                                    {
+                                        <li class="phone">
+                                            @T("Address.Fields.PhoneNumber"):
+                                            @item.PhoneNumber
+                                        </li>
+                                    }
+                                    @if (item.FaxEnabled)
+                                    {
+                                        <li class="fax">
+                                            @T("Address.Fields.FaxNumber"):
+                                            @item.FaxNumber
+                                        </li>
+                                    }
+                                    @if (item.CompanyEnabled && !String.IsNullOrEmpty(item.Company))
+                                    {
+                                        <li class="company">
+                                            @item.Company
+                                        </li>
+                                    }
+                                    @if (item.StreetAddressEnabled)
+                                    {
+                                        <li class="address1">
+                                            @item.Address1
+                                        </li>
+                                    }
+                                    @if (item.StreetAddress2Enabled && !String.IsNullOrEmpty(item.Address2))
+                                    {
+                                        <li class="address2">
+                                            @item.Address2
+                                        </li>
+                                    }
+                                    @if (item.CityEnabled || item.StateProvinceEnabled || item.ZipPostalCodeEnabled)
+                                    {
+                                        <li class="city-state-zip">
+                                            @if (item.CityEnabled)
+                                            {
+                                                @item.City
+                                            }
+                                            @if (item.CityEnabled && (item.StateProvinceEnabled || item.ZipPostalCodeEnabled))
+                                            {
+                                                <text>,</text>
+                                            }
+                                            @if (item.StateProvinceEnabled)
+                                            {
+                                                @item.StateProvinceName
+                                            }
+                                            @if (item.ZipPostalCodeEnabled)
+                                            {
+                                                @item.ZipPostalCode
+                                            }
+                                        </li>
+                                    }
+                                    @if (item.CountryEnabled && !String.IsNullOrEmpty(item.CountryName))
+                                    {
+                                        <li class="country">
+                                            @item.CountryName
+                                        </li>
+                                    }
+                                    @if (!String.IsNullOrEmpty(item.FormattedCustomAddressAttributes))
+                                    {
+                                        <li class="custom-attributes-view">
+                                            @Html.Raw(item.FormattedCustomAddressAttributes)
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+            @Html.Widget("checkout_billing_address_middle")
+            <div class="section new-billing-address">
+                <div class="title">
+                    @if (Model.ExistingAddresses.Count > 0)
+                    {
+                        <strong>@T("Checkout.OrEnterNewAddress")</strong>
+                    }
+                    else
+                    {
+                        <strong>@T("Checkout.EnterBillingAddress")</strong>
+                    }
+                </div>
+                <div class="enter-address">
+                    <div class="message-error">
+                        @Html.ValidationSummary(true)
+                    </div>
+                    <div class="enter-address-body">
+                        @{
+                            var dataDictAddress = new ViewDataDictionary();
+                            //Merge ModelState (required for validation)
+                            dataDictAddress.ModelState.Merge(ViewData.ModelState);
+                            dataDictAddress.TemplateInfo.HtmlFieldPrefix = "NewAddress";
+                            @Html.Partial("_CreateOrUpdateAddress", Model.NewAddress, dataDictAddress)
+                        }
+                    </div>
+                </div>
+            </div>
+            @Html.Widget("checkout_billing_address_bottom")
+            <div class="buttons">
+                <input type="submit" name="nextstep" value="@T("Checkout.NextButton")" class="button-1 new-address-next-step-button" />
+            </div>
+        }
+        <div class="section order-summary-body">
+            <div class="title">
+                <strong>@T("Checkout.OrderSummary")</strong>
+            </div>
+            @Html.Action("OrderSummary", "ShoppingCart")
+        </div>
+    </div>
+</div>
+
+
+
+//Onepage billing address section
+<li id="opc-billing" class="tab-section allow">
+                <div class="step-title">
+                    <span class="number">@billingAddressStepNumber</span>
+                    <h2>@T("Checkout.BillingAddress")</h2>
+                </div>
+                <div id="checkout-step-billing" class="step a-item" style="display: none;">
+                    <form id="co-billing-form" action="">
+                    <div id="checkout-billing-load">
+                        @Html.Action("OpcBillingForm", "Checkout")
+                        @*billing address content will be loaded here*@
+                    </div>
+                    </form>
+                    <script type="text/javascript">
+                        Billing.init('#co-billing-form', '@(storeLocation)checkout/OpcSaveBilling/', @(Model.DisableBillingAddressCheckoutStep.ToString().ToLowerInvariant()));
+                        if ($("#billing-address-select").length > 0) {
+                            Billing.newAddress(!$('#billing-address-select').val());
+                        }
+                    </script>
+                    <div class="buttons" id="billing-buttons-container">
+                        <input type="button" title="@T("Common.Continue")" class="button-1 new-address-next-step-button" onclick="Billing.save()" value="@T("Common.Continue")" />
+                        <span class="please-wait" id="billing-please-wait" style="display: none;">@T("Common.LoadingNextStep")</span>
+                    </div>
+                </div>
+            </li>
+//Onepage billing end
+
+//Onepage shipping method
+
+<li id="opc-shipping_method" class="tab-section">
+                    <div class="step-title">
+                        <span class="number">@shippingMethodStepNumber</span>
+                        <h2>@T("Checkout.ShippingMethod")</h2>
+                    </div>
+                    <div id="checkout-step-shipping-method" class="step a-item" style="display: none;">
+                        <form id="co-shipping-method-form" action="">
+                        <div id="checkout-shipping-method-load">
+                            @*shipping methods content will be loaded here*@
+                        </div>
+                        <script type="text/javascript">
+                            ShippingMethod.init('#co-shipping-method-form', '@(storeLocation)checkout/OpcSaveShippingMethod/');
+                        </script>
+                        <div class="buttons" id="shipping-method-buttons-container">
+                            <p class="back-link">
+                                <a href="#" onclick="Checkout.back(); return false;"><small>&laquo; </small>@T("Common.Back")</a></p>
+                            <input type="button" class="button-1 shipping-method-next-step-button" onclick="ShippingMethod.save()" value="@T("Common.Continue")" />
+                            <span id="shipping-method-please-wait" class="please-wait" style="display: none;">@T("Common.LoadingNextStep")</span>
+                        </div>
+                        </form>
+                    </div>
+                </li>
+
+//onepage shipping end
+
+//Onepage shiiping address
+
+@if (Model.ShippingRequired)
+            {
+                <li id="opc-shipping" class="tab-section">
+                    <div class="step-title">
+                        <span class="number">@shippingAddressStepNumber</span>
+                        <h2>@T("Checkout.ShippingAddress")</h2>
+                    </div>
+                    <div id="checkout-step-shipping" class="step a-item" style="display: none;">
+                        <form action="" id="co-shipping-form">
+                        <div id="checkout-shipping-load">
+                            @*shipping address content will be loaded here*@
+                        </div>
+                        </form>
+                        <script type="text/javascript">
+                            Shipping.init('#co-shipping-form', '@(storeLocation)checkout/OpcSaveShipping/');
+                            if ($("#shipping-address-select").length > 0) {
+                                Shipping.newAddress(!$('#shipping-address-select').val());
+                            }
+                        </script>
+                        <div class="buttons" id="shipping-buttons-container">
+                            @if (!Model.DisableBillingAddressCheckoutStep)
+                            {
+                                <p class="back-link">
+                                    <a href="#" onclick=" Checkout.back(); return false; "><small>&laquo; </small>@T("Common.Back")</a>
+                                </p>
+                            }
+                            <input type="button" class="button-1 new-address-next-step-button" title="@T("Common.Continue")" onclick="Shipping.save()" value="@T("Common.Continue")" />
+                            <span id="shipping-please-wait" class="please-wait" style="display: none;"> @T("Common.LoadingNextStep")</span>
+                        </div>
+                    </div>
+                </li>
+                
+            }
+
+//Onepage shipping add end
